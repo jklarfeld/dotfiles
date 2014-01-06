@@ -13,3 +13,13 @@ color_my_prompt
 if [ -f `brew --prefix`/etc/bash_completion ]; then
 	. `brew --prefix`/etc/bash_completion
 fi
+
+function showHiddenFiles {
+	defaults write com.apple.finder AppleShowAllFiles TRUE
+	killall Finder
+}
+
+function hideHiddenFiles {
+	defaults write com.apple.finder AppleShowAllFiles FALSE
+	killall Finder
+}
