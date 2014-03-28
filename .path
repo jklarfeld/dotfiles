@@ -1,1 +1,4 @@
 export PATH="/Applications/adt/ndk:$PATH"
+
+# Pebble SDK
+export PATH=/Users/jklarfeld/pebble-dev/PebbleSDK-current/bin:$PATH
