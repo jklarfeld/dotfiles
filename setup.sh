@@ -15,7 +15,7 @@ function installBins()
 	brew install bash-completion bash 
 	brew install git git-flow
 	brew install youtube-dl
-	brew install sl wget appledoc
+	brew install sl wget doxygen
 	brew install android-sdk android-ndk
 	brew install x264 ffmpeg
 }
