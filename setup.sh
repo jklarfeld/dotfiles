@@ -2,7 +2,7 @@
 
 function installBrew() 
 {
-	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 }
 
 function installCask()
@@ -17,7 +17,6 @@ function installBins()
 	brew install sqlite xctool
 	brew install youtube-dl
 	brew install sl wget doxygen
-	brew install x264 ffmpeg
 }
 
 function installCasks()
@@ -28,10 +27,9 @@ function installCasks()
 	brew cask install istat-menus
 	brew cask install iexplorer
 	brew cask install android-studio
+	brew cask install sourcetree
 	brew cask install virtualbox
-	brew cask install unrarx
 	brew cask install vagrant
-	brew cask install transmission
 	brew cask install plug
 	brew cask install sublime-text3
 	brew cask install spectacle
