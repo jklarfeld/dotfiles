@@ -22,21 +22,9 @@ function installBins()
 
 function installCasks()
 {
-	brew cask install sourcetree
-	brew cask install appcleaner
-	brew cask install dropbox
-	brew cask install istat-menus
-	brew cask install iexplorer
-	brew cask install android-studio
 	brew cask install virtualbox
-	brew cask install unrarx
 	brew cask install vagrant
 	brew cask install transmission
-	brew cask install plug
-	brew cask install sublime-text3
-	brew cask install spectacle
-	brew cask install cocoarestclient
-	brew cask install crashlytics
 }
 
 installBrew
