@@ -25,6 +25,9 @@ function installCasks()
 	brew cask install virtualbox
 	brew cask install vagrant
 	brew cask install transmission
+	brew cask install sabnzbd
+	brew cask install sickbeard
+	brew cask install plex-media-server
 	brew cask install sublime-text
 }
 
