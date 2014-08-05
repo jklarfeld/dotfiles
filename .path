@@ -1,6 +1,3 @@
 # brew binaries first
 
 export PATH="/usr/local/bin:$PATH"
-
-# Pebble SDK
-export PATH=/Users/jklarfeld/pebble-dev/PebbleSDK-current/bin:$PATH
