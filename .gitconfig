@@ -11,3 +11,7 @@
 	trustExitCode = true
 [core]
 	excludesfile = ~/.gitignore
+[merge]
+	tool = opendiff
+[alias]
+	ff = git pull --ff
