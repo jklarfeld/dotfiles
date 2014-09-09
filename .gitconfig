@@ -14,4 +14,4 @@
 [merge]
 	tool = opendiff
 [alias]
-	ff = git pull --ff
+	ff = pull --ff
