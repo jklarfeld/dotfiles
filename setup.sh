@@ -13,7 +13,8 @@ function installCask()
 function installBins()
 {
 	brew install bash-completion bash 
-	brew install git git-flow
+	brew install git git-flow tig
+	brew install sqlite xctool
 	brew install youtube-dl
 	brew install sl wget doxygen
 	brew install android-sdk android-ndk
@@ -22,6 +23,7 @@ function installBins()
 
 function installCasks()
 {
+	brew cask install gitx-rowanj
 	brew cask install appcleaner
 	brew cask install dropbox
 	brew cask install istat-menus
