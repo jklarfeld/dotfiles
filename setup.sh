@@ -33,7 +33,7 @@ function installCasks()
 	brew cask install vagrant
 	brew cask install transmission
 	brew cask install plug
-	brew cask install sublime-text-3
+	brew cask install sublime-text3
 	brew cask install spectacle
 	brew cask install cocoarestclient
 	brew cask install crashlytics
@@ -44,6 +44,8 @@ installBrew
 source ~/.bash_profile
 
 installCask
+
+brew tap caskroom/versions
 
 installBins
 
