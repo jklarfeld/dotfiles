@@ -23,3 +23,8 @@ function hideHiddenFiles {
 	defaults write com.apple.finder AppleShowAllFiles FALSE
 	killall Finder
 }
+
+# Open Markdown in Mou from command line!
+function mou {
+    open ~/Applications/Mou.app $1
+}
