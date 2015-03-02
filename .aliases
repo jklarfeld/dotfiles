@@ -4,6 +4,9 @@ alias devchrome="open -a Google\ Chrome --args --disable-web-security --allow-fi
 # Developer Folder
 alias dev="cd ~/Developer"
 
+# Teeps Folder
+alias teeps="cd ~/Developer/Teeps"
+
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
