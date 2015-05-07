@@ -27,6 +27,8 @@ function installCasks()
 	brew cask install transmission
 	brew cask install sickbeard
 	brew cask install plex-media-server
+	brew cask install appcleaner
+	brew cask install sabnzbd
 }
 
 installBrew
