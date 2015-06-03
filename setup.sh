@@ -36,7 +36,7 @@ function installCasks()
 	brew cask install sublime-text3
 	brew cask install spectacle
 	brew cask install cocoarestclient
-	brew cask install crashlytics
+	brew cask install fabric
 }
 
 installBrew
