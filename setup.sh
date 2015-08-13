@@ -14,7 +14,7 @@ function installBins()
 {
 	brew install bash-completion bash 
 	brew install git git-flow tig
-	brew install xctool
+	brew install xctool emacs
 	brew install sl wget doxygen
 }
 
