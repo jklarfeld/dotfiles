@@ -1,1 +1,1 @@
-export EDITOR=nano
+export EDITOR=emacs-24.5
