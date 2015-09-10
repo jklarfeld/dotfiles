@@ -25,7 +25,6 @@ function installCasks()
 	brew cask install dropbox
 	brew cask install istat-menus
 	brew cask install iexplorer
-	brew cask install sourcetree
 	brew cask install virtualbox
 	brew cask install vagrant
 	brew cask install sublime-text3
