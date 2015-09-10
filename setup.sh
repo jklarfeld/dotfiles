@@ -14,9 +14,8 @@ function installBins()
 {
 	brew install bash-completion bash 
 	brew install git git-flow tig
-	brew install sqlite xctool
-	brew install youtube-dl
-	brew install sl wget doxygen
+	brew install xctool
+	brew install sl wget
 }
 
 function installCasks()
@@ -26,11 +25,9 @@ function installCasks()
 	brew cask install dropbox
 	brew cask install istat-menus
 	brew cask install iexplorer
-	brew cask install android-studio
 	brew cask install sourcetree
 	brew cask install virtualbox
 	brew cask install vagrant
-	brew cask install plug
 	brew cask install sublime-text3
 	brew cask install spectacle
 	brew cask install paw
@@ -38,6 +35,8 @@ function installCasks()
 }
 
 installBrew
+
+touch ~/.bash_profile
 
 source ~/.bash_profile
 

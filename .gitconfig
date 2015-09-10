@@ -1,6 +1,6 @@
 [user]
-	name = Klarfeld, J Jeff (E IT S MCC)
-	email = Jeff.Klarfeld@siemens.com
+	name = Jeffrey Klarfeld
+	email = jeff@teeps.org
 [push]
 	default = upstream
 [difftool "sourcetree"]

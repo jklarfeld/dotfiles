@@ -37,7 +37,3 @@ parse_svn_repository_root() {
 function mou {
     open ~/Applications/Mou.app $1
 }
-
-function code () {
-    VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*
-}
