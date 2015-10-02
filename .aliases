@@ -10,8 +10,10 @@ alias teeps="cd ~/Developer/Teeps"
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-# SSH Tunnel to SickBeard
+alias brewUp="brew update && brew upgrade --all && brew cleanup"
 
-alias sickSSH="ssh -N -L 8081:10.0.1.34:8081 jklarfeld@meowschwitz.dyndns.org"
+alias csgo="open steam://run/730"
 
-alias brewUp="brew update && brew upgrade --all"
+alias docker-up="docker-machine start dev"
+
+alias docker-down="docker-machine stop dev"

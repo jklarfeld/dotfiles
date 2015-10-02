@@ -14,6 +14,19 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 	. `brew --prefix`/etc/bash_completion
 fi
 
+function dockerInit {
+    STATUS=`docker-machine ls dev --filter state=Running | grep "Running"`
+
+    if ! [ "${STATUS}" = "" ]; then
+        eval "$(docker-machine env dev)"
+    fi
+}
+dockerInit
+
+function dockerAddress {
+    docker-machine ip dev| pbcopy
+}
+
 function showHiddenFiles {
 	defaults write com.apple.finder AppleShowAllFiles TRUE
 	killall Finder
@@ -27,8 +40,4 @@ function hideHiddenFiles {
 # Open Markdown in Mou from command line!
 function mou {
     open ~/Applications/Mou.app $1
-}
-
-function code () {
-    VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*
 }
