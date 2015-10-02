@@ -18,6 +18,8 @@ function installBins()
 	brew install youtube-dl
 	brew install sl wget doxygen
 	brew install x264 ffmpeg
+	brew install golang 
+	brew install docker docker-machine docker-compose
 }
 
 function installCasks()
