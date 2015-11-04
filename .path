@@ -3,5 +3,6 @@ export PATH="/usr/local/bin:$PATH"
 
 # GoLang stuff
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
-export GOPATH="$HOME/Developer/golang"
-export GOROOT="/usr/local/opt/go/libexec"
+
+# TexLive
+export PATH="$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin"
