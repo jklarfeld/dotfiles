@@ -28,8 +28,6 @@ function installCasks()
 	brew cask install appcleaner
 	brew cask install dropbox
 	brew cask install istat-menus
-	brew cask install iexplorer
-	brew cask install android-studio
 	brew cask install virtualbox
 	brew cask install unrarx
 	brew cask install vagrant
