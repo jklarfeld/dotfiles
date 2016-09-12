@@ -4,16 +4,9 @@ alias devchrome="open -a Google\ Chrome --args --disable-web-security --allow-fi
 # Developer Folder
 alias dev="cd ~/Developer"
 
-# Teeps Folder
-alias teeps="cd ~/Developer/Teeps"
-
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 alias brewUp="brew update && brew upgrade --all && brew cleanup"
 
 alias csgo="open steam://run/730"
-
-alias docker-up="docker-machine start dev"
-
-alias docker-down="docker-machine stop dev"

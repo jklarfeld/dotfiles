@@ -14,25 +14,16 @@ function installBins()
 {
 	brew install bash-completion bash 
 	brew install git git-flow tig
-	brew install sqlite xctool
-	brew install youtube-dl
-	brew install sl wget doxygen
-	brew install x264 ffmpeg
-	brew install golang 
-	brew install docker docker-machine docker-compose
+	brew install xctool
+	brew install sl wget
 }
 
 function installCasks()
 {
 	brew cask install sourcetree
 	brew cask install appcleaner
-	brew cask install dropbox
 	brew cask install istat-menus
-	brew cask install virtualbox
-	brew cask install unrarx
-	brew cask install vagrant
 	brew cask install transmission
-	brew cask install plug
 	brew cask install sublime-text3
 	brew cask install spectacle
 	brew cask install paw

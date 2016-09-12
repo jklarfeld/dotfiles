@@ -21,11 +21,6 @@ function dockerInit {
         eval "$(docker-machine env dev)"
     fi
 }
-dockerInit
-
-function dockerAddress {
-    docker-machine ip dev| pbcopy
-}
 
 function showHiddenFiles {
 	defaults write com.apple.finder AppleShowAllFiles TRUE
