@@ -5,4 +5,4 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 
 # TexLive
-export PATH="$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin"
+export PATH="$PATH:/usr/local/texlive/2016/bin/x86_64-darwin"
