@@ -36,3 +36,15 @@ function hideHiddenFiles {
 function mou {
     open ~/Applications/Mou.app $1
 }
+
+function start_ramdisk {
+	sudo ~/.xcode_ramdisk start
+}
+
+function stop_ramdisk {
+	sudo ~/.xcode_ramdisk stop
+}
+
+function restart_ramdisk {
+	sudo ~/.xcode_ramdisk restart
+}
