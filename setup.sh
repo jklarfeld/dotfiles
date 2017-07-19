@@ -24,7 +24,7 @@ function installCasks()
 	brew cask install appcleaner
 	brew cask install istat-menus
 	brew cask install transmission
-	brew cask install sublime-text3
+	brew cask install sublime-text
 	brew cask install spectacle
 	brew cask install paw
 	brew cask install fabric
