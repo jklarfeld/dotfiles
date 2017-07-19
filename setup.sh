@@ -14,8 +14,7 @@ function installBins()
 {
 	brew install bash-completion bash 
 	brew install git git-flow tig
-	brew install xctool
-	brew install sl wget
+	brew install emacs sl wget
 }
 
 function installCasks()
@@ -27,8 +26,9 @@ function installCasks()
 	brew cask install sublime-text
 	brew cask install spectacle
 	brew cask install paw
-	brew cask install fabric
 }
+
+git submodule update --init
 
 installBrew
 
