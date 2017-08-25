@@ -15,6 +15,8 @@ function installBins()
 	brew install bash-completion bash 
 	brew install git git-flow tig
 	brew install emacs sl wget
+	brew install youtube-dl ffmpeg
+	brew install chruby ruby-install
 }
 
 function installCasks()
@@ -26,6 +28,8 @@ function installCasks()
 	brew cask install sublime-text
 	brew cask install spectacle
 	brew cask install paw
+	brew cask install daisydisk
+	brew cask install intel-power-gadget
 }
 
 git submodule update --init

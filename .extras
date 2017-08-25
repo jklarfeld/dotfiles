@@ -14,14 +14,6 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 	. `brew --prefix`/etc/bash_completion
 fi
 
-function dockerInit {
-    STATUS=`docker-machine ls dev --filter state=Running | grep "Running"`
-
-    if ! [ "${STATUS}" = "" ]; then
-        eval "$(docker-machine env dev)"
-    fi
-}
-
 function showHiddenFiles {
 	defaults write com.apple.finder AppleShowAllFiles TRUE
 	killall Finder

@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 cd "$(dirname "${BASH_SOURCE}")"
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "*.terminal"  --exclude "setup.sh" --exclude "README.md" --exclude "LICENSE-MIT.txt" -av --no-perms . ~
-	ln -s ~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime 
+	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "*.sh" --exclude "*.terminal" --exclude "README.md" --exclude "LICENSE-MIT.txt" -av --no-perms . ~ 
 	source ~/.bash_profile
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
