@@ -28,6 +28,7 @@ function installCasks()
 	brew cask install sublime-text
 	brew cask install spectacle
 	brew cask install paw
+	brew cask install hammerspoon
 	brew cask install daisydisk
 	brew cask install intel-power-gadget
 }
