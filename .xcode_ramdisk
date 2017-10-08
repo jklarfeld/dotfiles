@@ -21,11 +21,11 @@ dev=`hdik -drivekey system-image=yes -nomount ram://$rdsize`
 # Successfull creation...
 if [ $? -eq 0 ] ; then
 # Create HFS on the RAM volume.
-newfs_hfs $dev
+newfs_apfs $dev
 # Store permissions from old mount point.
 eval `/usr/bin/stat -s "$mntpt"`
 # Mount the RAM disk to the target mount point.
-mount -t hfs -o union -o nobrowse -o nodev -o noatime $dev "$mntpt"
+mount -t apfs -o union -o nobrowse -o nodev -o noatime $dev "$mntpt"
 # Restore permissions like they were on old volume.
 chown $st_uid:$st_gid "$mntpt"
 chmod $st_mode "$mntpt"
