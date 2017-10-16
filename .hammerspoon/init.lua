@@ -59,6 +59,8 @@ function batteryStateChanged()
 		return 
 	end
 
+	currentPowerSource = powerSource
+
 	if powerSource == "Battery Power" then
 		movedToBatteryPower()
 	elseif powerSource == "AC Power" then
