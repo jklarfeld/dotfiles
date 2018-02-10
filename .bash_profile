@@ -1,3 +1,4 @@
+#!/bin/sh
 
 for file in ~/.{path,aliases,extras,exports,profile,osx}; do
         [ -r "$file" ] && [ -f "$file" ] && source "$file"

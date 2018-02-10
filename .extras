@@ -1,3 +1,4 @@
+#!/bin/sh
 
 function color_my_prompt {
     local __cur_time="\$(date +%k:%M:%S):"
