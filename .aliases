@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Apps
 alias devchrome="open -a Google\ Chrome --args --disable-web-security --allow-file-access-from-files"
 
@@ -7,6 +9,6 @@ alias dev="cd ~/Developer"
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-alias brewUp="brew update && brew upgrade && brew cleanup"
+alias brewup="brew update && brew upgrade && brew cleanup"
 
 alias csgo="open steam://run/730"

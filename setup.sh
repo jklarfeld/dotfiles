@@ -31,6 +31,8 @@ function installCasks()
 	brew cask install hammerspoon
 	brew cask install daisydisk
 	brew cask install intel-power-gadget
+	brew cask install 1password
+	brew cask install adobe-creative-cloud
 }
 
 git submodule update --init
