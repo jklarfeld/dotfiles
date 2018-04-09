@@ -7,7 +7,7 @@ function installBrew()
 
 function installCask()
 {
-	brew install caskroom/cask/brew-cask
+	brew tap caskroom/cask
 }
 
 function installBins()
@@ -35,8 +35,6 @@ function installCasks()
 	brew cask install adobe-creative-cloud
 }
 
-git submodule update --init
-
 installBrew
 
 source ~/.bash_profile
@@ -48,3 +46,7 @@ brew tap caskroom/versions
 installBins
 
 installCasks
+
+brew cleanup && brew cask cleanup
+
+git submodule update --init

@@ -12,11 +12,6 @@ function reloadConfig(files)
 	end
 end
 
-myWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig):start()
-hs.alert.show("Config loaded")
-
-caffeine = hs.menubar.new()
-
 function setCaffeineDisplay(state)
 	if state then
 		caffeine:setTitle("😳")
@@ -68,6 +63,20 @@ function batteryStateChanged()
 	end
 end
 
+function usbDeviceChanged(usbChange)
+	local name = usbChange["productName"]
+	local eventType = usbChange["eventType"]
+	hs.console.printStyledtext(name .. " " .. eventType)
+end
+
+myWatcher = hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reloadConfig):start()
+hs.alert.show("Config loaded")
+
+caffeine = hs.menubar.new()
+
 currentPowerSource = hs.battery.powerSource()
 batteryWatcher = hs.battery.watcher.new(batteryStateChanged)
 batteryWatcher:start()
+
+usbWatcher = hs.usb.watcher.new(usbDeviceChanged)
+usbWatcher:start()
