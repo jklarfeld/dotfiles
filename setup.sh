@@ -47,6 +47,6 @@ installBins
 
 installCasks
 
-brew cleanup && brew cask cleanup
+brew cleanup
 
 git submodule update --init
