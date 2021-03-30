@@ -45,3 +45,7 @@ function restart_ramdisk {
 function convert_to_mp4 {
     ffmpeg -i $1 -codec copy $2
 }
+
+function delete_derived_data {
+    rm -rf "${HOME}/Library/Developer/DerivedData"
+}

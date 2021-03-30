@@ -8,9 +8,9 @@ USERNAME=$(logname)
 TMP_DIR="/private/tmp"
 RUN_DIR="/var/run"
 SYS_CACHES_DIR="/Library/Caches"
-USER_CACHES_DIR="/Users/$USERNAME/Library/Caches"
-DEV_CACHES_DIR="/Users/$USERNAME/Library/Developer/Xcode/DerivedData"
-DEV_IPHONE_DIR="/Users/$USERNAME/Library/Application Support/iPhone Simulator"
+USER_CACHES_DIR="/${HOME}/Library/Caches"
+DEV_CACHES_DIR="/${HOME}/Library/Developer/Xcode/DerivedData"
+DEV_IPHONE_DIR="/${HOME}/Library/Application Support/iPhone Simulator"
 
 RAMDisk() {
 mntpt="$1"

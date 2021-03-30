@@ -15,3 +15,4 @@
 	tool = opendiff
 [alias]
 	ff = pull --ff
+	rr = pull --rebase
