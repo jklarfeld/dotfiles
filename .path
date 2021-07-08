@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # brew binaries first
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/sbin:$PATH"
 
 # GoLang stuff
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
