@@ -54,8 +54,7 @@ cask "macdown"
 cask "sublime-text"
 cask "transmission"
 cask "paw"
-cask "postgres"
-cask "spectacle"
+cask "rectangle"
 
 # App Store
 mas "inRoute", id: 1476902521
