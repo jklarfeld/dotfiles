@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export EDITOR=emacs
+export EDITOR=vim
 
 export GOPATH="$HOME/Developer/golang"
 export GOROOT="/usr/local/opt/go/libexec"
