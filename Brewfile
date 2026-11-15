@@ -52,7 +52,6 @@ cask "macdown"
 cask "sublime-text"
 cask "transmission"
 cask "paw"
-cask "postgres"
 cask "rectangle"
 
 # App Store
